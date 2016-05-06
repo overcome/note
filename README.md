@@ -10,4 +10,4 @@ Solution:
 1. Find config/config.ini.php
 2. Add new line in [General] section:
     
-  noreply_email_address = 'From email address'
+  `noreply_email_address = 'From email address'`
