@@ -1,0 +1,2 @@
+# note
+Tech partials note
