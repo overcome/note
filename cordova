@@ -1,0 +1,8 @@
+[cordova]
+
+1. css中“static/static”替换为"../"
+2. 图片是否已经在www/static/static/img中
+3. main.js中代码调整 （app）
+4. index.vue中定义appRootPath
+5. indexSub.vue中定义appRootPath
+6. 将新的index.html文件放入到www/中，添加cordova.js在改文件中
