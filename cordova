@@ -6,3 +6,8 @@
 4. index.vue中定义appRootPath
 5. indexSub.vue中定义appRootPath
 6. 将新的index.html文件放入到www/中，添加cordova.js(<script type="text/javascript" src="cordova.js"></script>)在改文件中
+
+[command reference]
+npm run build (under /vueproject folder, build to /www folder)
+cordova emulate ios --target="iPad-Pro, 9.3"
+cordova emulate ios --list
