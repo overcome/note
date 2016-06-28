@@ -2,10 +2,12 @@
 
 1. css中“static/static”替换为"../"
 2. 图片是否已经在www/static/static/img中
-3. main.js中代码调整 （app）
+3. main.js中代码调整 （按照cordova的方式，在var app = {}中对代码调整）
 4. index.vue中定义appRootPath
 5. indexSub.vue中定义appRootPath
 6. 将新的index.html文件放入到www/中，添加cordova.js(<script type="text/javascript" src="cordova.js"></script>)在改文件中
+
+对于4，5 在程序中对于appRootPath提取成为了一个const(可在vueproject/src/config.js中找到定义处)
 
 [command reference]
 npm run build (under /vueproject folder, build to /www folder)
